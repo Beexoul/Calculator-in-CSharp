@@ -8,3 +8,8 @@ This program creates a calculator that performs basic arithmetic operations (add
 <h1>Build and run the program.
 Code Explanation</h1>
 The program starts by declaring three variables: num1, num2, and result, all of type double. It also declares a char variable named operation to hold the arithmetic operation entered by the user.
+
+```bash 
+double num1, num2, result;
+char operation;
+```
