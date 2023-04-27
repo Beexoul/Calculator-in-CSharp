@@ -18,3 +18,11 @@ The program then prompts the user to enter the first number, reads in the input 
 Console.WriteLine("Enter the first number:");
 num1 = double.Parse(Console.ReadLine());
 ```
+The same process is repeated for the second number and the operation.
+```bash
+Console.WriteLine("Enter the second number:");
+num2 = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Enter the operation (+, -, *, /):");
+operation = char.Parse(Console.ReadLine());
+```
