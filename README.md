@@ -13,3 +13,8 @@ The program starts by declaring three variables: num1, num2, and result, all of 
 double num1, num2, result;
 char operation;
 ```
+The program then prompts the user to enter the first number, reads in the input using Console.ReadLine(), and converts it to a double using double.Parse().
+```bash
+Console.WriteLine("Enter the first number:");
+num1 = double.Parse(Console.ReadLine());
+```
