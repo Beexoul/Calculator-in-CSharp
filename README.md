@@ -26,3 +26,39 @@ num2 = double.Parse(Console.ReadLine());
 Console.WriteLine("Enter the operation (+, -, *, /):");
 operation = char.Parse(Console.ReadLine());
 ```
+A switch statement is used to perform the specified operation and display the result. If the operation is division (/), the program checks if the second number is zero to avoid a division by zero error.
+
+```bash 
+switch (operation)
+{
+    case '+':
+        result = num1 + num2;
+        Console.WriteLine("{0} + {1} = {2}", num1, num2, result);
+        break;
+
+    case '-':
+        result = num1 - num2;
+        Console.WriteLine("{0} - {1} = {2}", num1, num2, result);
+        break;
+
+    case '*':
+        result = num1 * num2;
+        Console.WriteLine("{0} * {1} = {2}", num1, num2, result);
+        break;
+
+    case '/':
+        if (num2 != 0)
+        {
+            result = num1 / num2;
+            Console.WriteLine("{0} / {1} = {2}", num1, num2, result);
+        }
+        else
+        {
+            Console.WriteLine("Cannot divide by zero.");
+        }
+        break;
+
+    default:
+        Console.WriteLine("Invalid operation.");
+        break;
+}
