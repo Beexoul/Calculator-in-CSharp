@@ -2,8 +2,8 @@
 This program creates a calculator that performs basic arithmetic operations (addition, subtraction, multiplication, and division) on two numbers entered by the user.
 
 <h1><h1>How to Run</h1>
-1.Install .NET Core if you don't have it already. <br>
-2.Copy the code from Calculator.cs into a new file in a C# project.
+1. Install .NET Core if you don't have it already. <br>
+2. Copy the code from Calculator.cs into a new file in a C# project.
 
 <h1>Build and run the program.
 Code Explanation</h1>
