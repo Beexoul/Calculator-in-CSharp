@@ -63,8 +63,3 @@ switch (operation)
         break;
 }
 ```
-
-
-<h1> License </h1>
-
-This calculator program is open-source .
